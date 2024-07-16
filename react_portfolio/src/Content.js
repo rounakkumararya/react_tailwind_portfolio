@@ -43,7 +43,7 @@ import dribbble_ico from "./assets/images/Socials/dribbble.png";
 import behance_ico from "./assets/images/Socials/behance.png";
 
 // import Hireme_person from "./assets/images/Hireme/person.png";
-import about_img from "./assets/images/About/person.svg";
+import about_img from "./assets/images/About/person1.svg";
 import edu_img from "./assets/images/Education/Education.svg";
 import Achievements_img from "./assets/images/Achievements/Achievement.svg";
 
