@@ -34,10 +34,10 @@ const Contact = () => {
   };
 
   return (
-    <section className=" bg-lime-300 text-white" id="contact">
+    <section className=" bg-lime-300 text-zinc-600 " id="contact">
       <Toaster />
       <div className="md:container px-5 py-14">
-        <h2 className="title text-white" data-aos="fade-down">
+        <h2 className="title text-zinc-700" data-aos="fade-down">
           {Contact.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
@@ -57,7 +57,7 @@ const Contact = () => {
               name="from_name"
               placeholder="Name"
               required
-              className="border border-white p-3 rounded"
+              className="border border-zinc-600  p-3 rounded"
             />
             <input
               type="email"
@@ -65,12 +65,12 @@ const Contact = () => {
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder="Email Id"
               required
-              className="border border-white p-3 rounded"
+              className="border border-zinc-600 p-3 rounded"
             />
             <textarea
               name="message"
               placeholder="Message"
-              className="border border-white p-3 rounded h-44"
+              className="border border-zinc-600 p-3 rounded h-44"
               required
             ></textarea>
             <button
@@ -88,7 +88,7 @@ const Contact = () => {
                 data-aos-delay={i * 430}
                 className="flex items-center gap-2"
               >
-                <h4 className="text-white">{createElement(content.icon)}</h4>
+                <h4 className="text-zinc-700">{createElement(content.icon)}</h4>
                 <a className="font-Poppins" href={content.link} target="_blank">
                   {content.text}
                 </a>
