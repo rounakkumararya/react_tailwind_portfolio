@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:pt-10 bottom-0 lg:pt-0  lg:h-[100vh] flex w-1/2 float-right items-end justify-end lg:justify-start h-100">
+        <div className="md:pt-10 bottom-0 lg:pt-0  lg:h-[100vh] flex w-3/4 md:w-1/2 float-right items-end justify-end lg:justify-start h-100">
           <img
             src={hero.image}
             data-aos="slide-up"
