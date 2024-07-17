@@ -26,11 +26,11 @@ const Hero = () => {
 
   return (
     <section className="">
-      <div className=" min-h-screen flex lg:flex-row flex-col lg:items-center justify-center items-center">
+      <div className=" min-h-screen flex lg:flex-row flex-col lg:items-center justify-between items-center">
         <div
           data-aos="slide-left"
           data-aos-delay="150"
-          className="absolute h-full lg:w-6/12 w-3/12 top-0 right-0  bottom-0 -z-10"
+          className="absolute h-fit lg:w-6/12 w-3/12 top-0 right-0  bottom-0 -z-10"
         >
           <img
             width="100%"
@@ -46,7 +46,7 @@ const Hero = () => {
 
         {/* first col */}
         <div
-          className="pb-14 md:pb-0 lg:px-auto pt-40   flex flex-wrap flex-col justify-start lg:align-middle lg:items-center lg:justify-center w-3/4 lg:w-1/2 lg:pt-20"
+          className="pb-10 md:pb-0 lg:px-auto pt-40   flex flex-wrap flex-col justify-start lg:align-middle lg:items-center lg:justify-center w-3/4 lg:w-1/2 lg:pt-20"
           data-aos="fade-down"
         >
           <h1>

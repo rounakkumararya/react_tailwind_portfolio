@@ -120,12 +120,12 @@ html * ,body * {
 
 .line-styling{
   position: relative;
-  bottom: 50px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   height: 50px;
   width: 80%;
-  margin: 20px 0 ;
+  margin: 10px 0 ;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -278,6 +278,16 @@ figure.snip0019:hover figcaption::before {
     height: 250px;
     width: 500px;
   }
+  .line-styling .style-circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+  .line-styling .style-line{
+    width: 95%;
+    height: 2px;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -292,4 +302,6 @@ figure.snip0019:hover figcaption::before {
   figure.snip0019 h2{
     font-size: 1.5rem;
   }
+
+  
 }

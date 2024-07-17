@@ -1,5 +1,5 @@
 // import content
-import { createElement, useState } from "react";
+// import { createElement, useState } from "react";
 import { content } from "../../Content";
 // import modal package
 // import Modal from "react-modal";
@@ -7,20 +7,10 @@ import { content } from "../../Content";
 // Modal.setAppElement("#root");
 
 const Education = () => {
-  const { skills, Education } = content;
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [selectSkill, setSelectSkill] = useState(null);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
+  const { Education } = content;
 
   return (
-    <section className=" min-h-fit bg-zinc-900 pt-10" id="skills">
+    <section className=" min-h-fit bg-zinc-900" id="skills">
       {/* modal */}
       {/* <Modal
         isOpen={modalIsOpen}
@@ -54,7 +44,7 @@ const Education = () => {
 
       {/* content */}
 
-      <div className=" lg:px-16  py-14  text-center lg:text-start">
+      <div className=" lg:px-16 py-8 lg:py-14  text-center lg:text-start">
         <h1 className="title text-lime-500  lg:text-6xl " data-aos="fade-down">
           {Education.title}
         </h1>
