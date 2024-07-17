@@ -9,7 +9,7 @@ const Achievements = () => {
     <section className=" min-h-fit bg-zinc-900" id="skills">
       {/* content */}
 
-      <div className="flex flex-col px-20 py-14 lg:px-16 text-center ">
+      <div className="flex flex-col px-10 py-14 lg:px-16 text-center ">
         <h1
           className="title text-lime-500  lg:text-6xl lg:text-start"
           data-aos="fade-down"

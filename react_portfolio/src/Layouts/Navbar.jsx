@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
@@ -9,6 +9,21 @@ const Navbar = () => {
   const { logoImg } = content;
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState(0);
+
+  const menuRef = useRef();
+
+  useEffect(() => {
+    const handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setShowMenu(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
 
   // scroll effect for nav
 
@@ -61,6 +76,7 @@ const Navbar = () => {
         className={`fixed  z-[999] flex items-center gap-5 bg-slate-200/60 px-6 py-3 backdrop-blur-sm rounded-full text-stone-700 duration-300 ${
           showMenu ? "bottom-10" : "bottom-[-100%]"
         }`}
+        ref={menuRef}
       >
         {nav.map((item, i) => (
           <a

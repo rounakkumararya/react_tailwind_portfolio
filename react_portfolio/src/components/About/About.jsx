@@ -4,7 +4,7 @@ const About = () => {
   const { About } = content;
 
   return (
-    <section className="  bg-zinc-900 ">
+    <section className="  bg-zinc-900 " id="about">
       <div className=" px-10 lg:px-16 py-14 text-center lg:text-start ">
         <h1 className="title text-lime-500  lg:text-6xl " data-aos="fade-down">
           {About.title}
@@ -26,7 +26,7 @@ const About = () => {
           <div
             data-aos="fade-left"
             className=" max-w-lg
-           p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[62rem] min-h-fit"
+           py-6 px-2 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[62rem] min-h-fit"
           >
             <h4 className="text-white  leading-none">{About.para[0]}</h4>
             <br />

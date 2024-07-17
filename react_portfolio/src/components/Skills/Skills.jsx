@@ -4,7 +4,7 @@ const Skills = () => {
   const { Skills } = content;
 
   return (
-    <div className="bg-zinc-800 px-5  py-14">
+    <div className="bg-zinc-800 px-2 py-14">
       <h1
         className="title  text-lime-500 lg:text-6xl text-center"
         data-aos="fade-down"

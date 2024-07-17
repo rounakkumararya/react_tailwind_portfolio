@@ -76,18 +76,18 @@ export const content = {
       icon: TbSmartHome,
     },
     {
-      name: "Skills",
-      link: "#skills",
-      icon: FaToolbox,
-    },
-    {
       name: "About",
       link: "#about",
       icon: BiUser,
     },
     {
-      name: "Services",
-      link: "#services",
+      name: "Skills",
+      link: "#skills",
+      icon: FaToolbox,
+    },
+    {
+      name: "testimonials",
+      link: "#testimonials",
       icon: RiServiceLine,
     },
     {
@@ -108,55 +108,48 @@ export const content = {
       color: "#0072b1",
     },
     {
-      link: "www.instagram.com",
+      link: "https://www.instagram.com/",
       icon: AiFillInstagram,
       color: "red",
     },
 
     {
-      link: "www.twitter.com",
+      link: "https://www.twitter.com",
       icon: AiFillTwitterCircle,
       color: " #00acee",
     },
     {
-      link: "www.github.com",
+      link: "https://www.github.com",
       icon: FaGithub,
       color: "#00000",
     },
     {
-      link: "www.behance.com",
+      link: "https://www.behance.com",
       icon: AiFillBehanceSquare,
       color: "#053eff",
     },
     {
-      link: "www.dribble.com",
+      link: "https://www.dribble.com",
       icon: AiFillDribbbleCircle,
       color: "#ea4c89",
     },
     {
-      link: "www.facebook.com",
+      link: "https://www.facebook.com",
       icon: BsFacebook,
       color: "#1877F2",
     },
   ],
 
   hero: {
-    title: ["UI/UX Designer", "MERN Developer"],
+    title: ["MERN Developer", "UI/UX Designer"],
     firstName: "ROUNAK",
     LastName: "ARYA",
-    btnText: ["Resume", "Socials"],
+    btnText: ["Resume", "Hire Me"],
     image: Hero_person,
     background: Hero_bg,
-    hero_content: [
-      {
-        count: "+5",
-        text: "",
-      },
-      {
-        count: "20+",
-        text: "Projects Worked in my career",
-      },
-    ],
+    hero_content: {
+      text: "A UX designer and full stack developer is both a poet and an engineer, weaving together words and code to tell a captivating story.",
+    },
   },
   About: {
     title: "About Me",
