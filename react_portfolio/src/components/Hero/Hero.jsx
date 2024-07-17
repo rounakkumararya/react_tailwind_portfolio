@@ -46,7 +46,7 @@ const Hero = () => {
 
         {/* first col */}
         <div
-          className="pb-14 md:pb-0 lg:px-auto pt-40   flex flex-col justify-start lg:align-middle lg:items-center lg:justify-center w-3/4 lg:w-1/2 lg:pt-20"
+          className="pb-14 md:pb-0 lg:px-auto pt-40   flex flex-wrap flex-col justify-start lg:align-middle lg:items-center lg:justify-center w-3/4 lg:w-1/2 lg:pt-20"
           data-aos="fade-down"
         >
           <h1>
@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:pt-10 lg:pt-0  lg:h-[100vh] flex w-1/2 float-right items-end justify-end lg:justify-start h-100">
+        <div className="md:pt-10 bottom-0 lg:pt-0  lg:h-[100vh] flex w-1/2 float-right items-end justify-end lg:justify-start h-100">
           <img
             src={hero.image}
             data-aos="slide-up"
