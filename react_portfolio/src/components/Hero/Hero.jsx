@@ -30,7 +30,7 @@ const Hero = () => {
         <div
           data-aos="slide-left"
           data-aos-delay="150"
-          className="absolute h-fit lg:w-6/12 w-3/12 top-0 right-0  bottom-0 -z-10"
+          className="absolute h-full lg:w-6/12 w-3/12 top-0 right-0  bottom-0 -z-10"
         >
           <img
             width="100%"
