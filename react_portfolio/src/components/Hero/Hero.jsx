@@ -68,8 +68,12 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex gap-5 mt-10 justify-start">
-            <button className="btn">{hero.btnText[0]}</button>
-            <button className="btn">{hero.btnText[1]}</button>
+            <a href={hero.btnLink[0]} target="_blank">
+              <button className="btn">{hero.btnText[0]}</button>
+            </a>
+            <a href={hero.btnLink[1]} target="_blank">
+              <button className="btn">{hero.btnText[1]}</button>
+            </a>
           </div>
         </div>
 

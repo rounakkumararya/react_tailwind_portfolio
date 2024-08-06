@@ -1,6 +1,7 @@
 // import images
 import Hero_person from "./assets/images/Hero/hero1.png";
 import Hero_bg from "./assets/images/Hero/heroBg.png";
+import resume from "./assets/Resume.pdf";
 
 import figma from "./assets/images/Skills/figma.png";
 import ps from "./assets/images/Skills/ps.png";
@@ -56,11 +57,11 @@ import { FaToolbox, FaGithub } from "react-icons/fa";
 import { BiUser } from "react-icons/bi";
 import {
   AiFillInstagram,
-  AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillBehanceSquare,
   AiFillDribbbleCircle,
 } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { BsFacebook } from "react-icons/bs";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
@@ -108,33 +109,33 @@ export const content = {
       color: "#0072b1",
     },
     {
-      link: "https://www.instagram.com/",
+      link: "https://www.instagram.com/rounakkumar040",
       icon: AiFillInstagram,
       color: "red",
     },
 
     {
-      link: "https://www.twitter.com",
-      icon: AiFillTwitterCircle,
+      link: "https://x.com/Rounakkumararya",
+      icon: FaSquareXTwitter,
       color: " #00acee",
     },
     {
-      link: "https://www.github.com",
+      link: "https://github.com/rounakkumararya",
       icon: FaGithub,
       color: "#00000",
     },
     {
-      link: "https://www.behance.com",
+      link: "https://www.behance.net/rounakkumar10",
       icon: AiFillBehanceSquare,
       color: "#053eff",
     },
     {
-      link: "https://www.dribble.com",
+      link: "https://dribbble.com/texCLOUD",
       icon: AiFillDribbbleCircle,
       color: "#ea4c89",
     },
     {
-      link: "https://www.facebook.com",
+      link: "https://www.facebook.com/rounakkumararya",
       icon: BsFacebook,
       color: "#1877F2",
     },
@@ -145,6 +146,7 @@ export const content = {
     firstName: "ROUNAK",
     LastName: "ARYA",
     btnText: ["Resume", "Hire Me"],
+    btnLink: [resume, "https://www.linkedin.com/in/rounak-kumar-arya/"],
     image: Hero_person,
     background: Hero_bg,
     hero_content: {
