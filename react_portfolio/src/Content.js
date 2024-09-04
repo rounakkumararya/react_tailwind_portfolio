@@ -30,8 +30,7 @@ import logo from "../src/assets/images/logo/logo.svg";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.jpg";
-import project4 from "./assets/images/Projects/img4.png";
-import project5 from "./assets/images/Projects/img5.png";
+import project4 from "./assets/images/Projects/img4.jpg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
