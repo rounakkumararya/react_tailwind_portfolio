@@ -29,7 +29,9 @@ import logo from "../src/assets/images/logo/logo.svg";
 
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
+import project3 from "./assets/images/Projects/img3.jpg";
+import project4 from "./assets/images/Projects/img4.png";
+import project5 from "./assets/images/Projects/img5.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -339,7 +341,7 @@ export const content = {
     subtitle: "MY CREATION",
     project_content: [
       {
-        title: "Gym Website",
+        title: "Property Listing Website",
         category: "MERN",
         image: project1,
         description:
@@ -347,7 +349,7 @@ export const content = {
         link: "https://www.github.com/rounakkumararya",
       },
       {
-        title: "Social Media web",
+        title: "Blog website",
         category: "MERN",
         image: project2,
         description:
@@ -355,17 +357,17 @@ export const content = {
         link: "https://www.github.com/rounakkumararya",
       },
       {
-        title: "Creative Website",
-        category: "MERN",
+        title: "Aidbook website design",
+        category: "UX design",
         image: project3,
         description:
           "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum deleniti magnam placeat, quisquam quaerat laborum inventore aliquam veniam cumque vitae sequi itaque sint? Eaque praesentium ipsam maiores perspiciatis molestiae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam quasi, aliquam dolorum, eos rerum obcaecati beatae consequatur itaque illum hic rem voluptatibus provident ea, eius voluptate aliquid veritatis placeat?",
         link: "https://www.github.com/rounakkumararya",
       },
       {
-        title: "Gym Website",
-        category: "MERN",
-        image: project1,
+        title: "Cake craves",
+        category: "UX design",
+        image: project4,
         description:
           "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum deleniti magnam placeat, quisquam quaerat laborum inventore aliquam veniam cumque vitae sequi itaque sint? Eaque praesentium ipsam maiores perspiciatis molestiae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam quasi, aliquam dolorum, eos rerum obcaecati beatae consequatur itaque illum hic rem voluptatibus provident ea, eius voluptate aliquid veritatis placeat?",
         link: "https://www.github.com/rounakkumararya",
