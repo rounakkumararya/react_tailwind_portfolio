@@ -21,6 +21,9 @@ const Projects = () => {
           <h4 className="subtitle" data-aos="fade-down">
             {Projects.subtitle}
           </h4>
+          <h4 className="text-red-500" data-aos="fade-down">
+            Section Under Maintenance
+          </h4>
           <br />
         </div>
         <div className="flex flex-wrap items-center align-middle justify-center w-full gap-5">
@@ -35,7 +38,7 @@ const Projects = () => {
                 <div>
                   <p>{content.description}</p>
                 </div>
-                <a href={content.link} target="_blank" rel="noreferrer"></a>
+                <a href="/projects" target="_blank" rel="noreferrer"></a>
               </figcaption>
             </figure>
           ))}
